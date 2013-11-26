@@ -3,7 +3,7 @@ session_start();
 ?>
 <html>
 <head>
-<link href="style.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div class="container">
@@ -28,7 +28,7 @@ session_start();
                                    </blockquote>
 
 				<p>To test our application please sign-in to comment. You can sign-in with your google account, with your gmail username and password. Don't worry its not going to be stored by us. Google takes care of the privacy. For details check the diagram of how OpenID works below. Also, to handle all the requests and response we use a PHP based client <a href="https://gitorious.org/lightopenid">LightOpenid</a>. So, please comment. :)  </p>
-				<p><img src="OpenIdDiagram.png"></p><br>
+				<p><img src="img/OpenIdDiagram.png"></p><br>
 				<p> Note: This is a demo site to test Open-Id, so the security is not taken into conideration. Also, the comments are handled with session variables. So, don't mind your comments goes away once you logout.</p>
 				
                               </div>
@@ -48,7 +48,7 @@ session_start();
                 
                 <div class="row">
 
-                                        <figure class="span1"> <img class="img-circle" src="blue_img.jpg" alt=""> </figure>
+                                        <figure class="span1"> <img class="img-circle" src="img/blue_img.jpg" alt=""> </figure>
 
                                         <div class="span7">
 
@@ -72,7 +72,7 @@ session_start();
 
                                    <div class="row">
 
-                                        <figure class="span1"> <img class="img-circle" src="blue_img.jpg" alt=""> </figure>
+                                        <figure class="span1"> <img class="img-circle" src="img/blue_img.jpg" alt=""> </figure>
 
                                         <div class="span7">
 
@@ -93,7 +93,7 @@ session_start();
 
                                    <div class="row">
 
-                                        <figure class="span1"> <img class="img-circle" src="blue_img.jpg" alt=""> </figure>
+                                        <figure class="span1"> <img class="img-circle" src="img/blue_img.jpg" alt=""> </figure>
 
                                         <div class="span7">
 
@@ -159,7 +159,7 @@ session_start();
 
                     </div>
 </div>
-<script src="jquery-1.8.2.js"></script>
+<script src="js/jquery-1.8.2.js"></script>
 </body>
 </html>
 

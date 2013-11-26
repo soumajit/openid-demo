@@ -1,6 +1,6 @@
 <html>
 <head>
-<link href="style.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div class="signin span6">
@@ -63,6 +63,6 @@ try {
     echo $e->getMessage();
 }?>
 </div>
-<script src="jquery-1.9.0.min.js"></script>
+<script src="js/jquery-1.9.0.min.js"></script>
 </body>
 </html>
